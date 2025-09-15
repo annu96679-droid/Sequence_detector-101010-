@@ -11,14 +11,11 @@ Simulation & verification using testbench
 *Project structure
 
  sequence_detector(101010)/
-│
-├── src/
-│   ├── module.v          # Verilog module for sequence detector
-│   ├── testbench.v       # Verilog testbench
-│
-├── simulations/
-│   ├── waveform.jpg      # Example simulation result
-│
-└── README.md             # Project documentation
+ src/
+module.v          # Verilog module for sequence detector
+testbench.v       # Verilog testbench
+ simulations/
+ waveform.jpg      # Example simulation result
+ README.md             # Project documentation
 
 
